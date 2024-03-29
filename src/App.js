@@ -1,14 +1,13 @@
 import React from 'react';
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
-import '@solana/wallet-adapter-react-ui/styles.css';
+import './App.css'; // Import CSS file
 
-const SolanaAuthorityRevoker: React.FC = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <h1>Solana Authority Revoker</h1>
-      <WalletMultiButton />
+      <button className="WalletButton">Connect Wallet</button>
     </div>
   );
 }
 
-export default SolanaAuthorityRevoker;
+export default App;
