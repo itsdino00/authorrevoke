@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build", // Yeh apke project ke build command hai. Jarurat ke hisab se badal sakte hain.
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -17,7 +17,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@solana/wallet-adapter-react-ui": "^x.x.x", // Solana wallet adapter ke version ko yahaan update karein
+    "@solana/wallet-adapter-react-ui": "^x.x.x",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0"
